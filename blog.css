@@ -1,0 +1,47 @@
+.sectionum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sectionum div {
+    width: 461px;
+    margin: 239px 0 162px 0;
+}
+.sectionum div h1 {
+    font-weight: 700;
+    font-size: 47px;
+    color: #009688;
+    margin-bottom: 40px;
+}
+.sectionum div p {
+    font-weight: 300;
+    font-size: 20px;
+}
+.sectionum img {
+    width: 405px;
+    height: 405px;
+    margin: 48px 0 89px 0;
+}
+.sectiondois {
+    background-color: #E5E5E5;
+}
+.sectiondois .louco {
+    padding-bottom: 70px;
+    padding-top: 109px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sectiondois .span {
+    font-weight: 500;
+    font-size: 30px;
+    color: #FF4081;
+    margin: 19px 0;
+}
+.sectiondois article img {
+    width: 518px;
+}
+.sectiondois article {
+    width: 518px;
+    margin-bottom: 100px;
+}

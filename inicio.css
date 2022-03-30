@@ -22,15 +22,19 @@ main {
     padding-bottom: 38px;
 }
 .p2 {
-    width: 256px;
-    padding: 10px 20px 10px 20px;
+    width: 100%;
+    
+}
+.p2 a {
     font-weight: 400;
     font-size: 27px;
     color: #FF4081;
     border: 2px solid #FF4081;
     box-sizing: border-box;
     border-radius: 62px;
-    margin-bottom: 201px;
+    text-decoration: none;
+    padding: 15px 50px;
+    margin-bottom: 40px;
 }
 .banner {
     margin-top: 252px;

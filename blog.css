@@ -45,3 +45,16 @@
     width: 518px;
     margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 481px) {
+    
+    .louco article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .louco article img, p {
+        width: 90%;
+    }
+}

@@ -69,3 +69,32 @@
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 769px) {
+    .texto {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    
+    .sectionum div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .sectionum div h1, p {
+        width: 85%;
+    }
+    .primeira img {
+        width: 90%;
+    }
+
+    .texto {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+}

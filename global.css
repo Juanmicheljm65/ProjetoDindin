@@ -8,13 +8,13 @@ body {
 .conteiner {
     width: 1440px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header {
     background: #2E948A;
     display: flex;
     justify-content: center;
-
 }
 header h2 a {
     display: block;
@@ -43,23 +43,22 @@ header nav a {
     text-transform: uppercase;
     padding: 0 10px;
 }
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
 footer {
     background: #419488;
     display: flex;
     justify-content: center;
-    
 }
 footer h2 {
     display: flex;
     justify-content: center;
-    height: 50%;
-}
-footer h2 a {
-    margin-top: 20px;
-    color: transparent;
-    background: url('logo-footer.png') 0 0 no-repeat;
-    width: 312px;
 
+    height: 50%;
+    margin-top: 30px;
 }
 
 footer ul {
@@ -93,8 +92,8 @@ footer a {
 .container {
     width: 1440px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    box-sizing: content-box;
     padding: 0 20px;
 }
 
@@ -106,16 +105,20 @@ footer a {
     
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 481px) {
 
     .container {
-        width: 460px;
-        flex-wrap: wrap;
+        width: 440px;
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+        padding: 0 10px;
     }
 
     header h2 {
         margin: 10px 0;
+    }
+    .conteiner h2 {
+        height: 101px;
     }
 }
